@@ -1,0 +1,35 @@
+{
+  "name": "electron-plugin",
+  "version": "0.0.1",
+  "description": "an electron exstensibility architecture enabler",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node .",
+    "example": "node ./example/example.js",
+    "test": "jest",
+    "test:dev": "jest --watchAll test/unit",
+    "test:int": "jest test/integration",
+    "test:cov": "jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+    "push": "yarn test && git push",
+    "deploy:major": "yarn version --major",
+    "deploy:minor": "yarn version --minor",
+    "deploy:patch": "yarn version --patch",
+    "deploy:push": "git push && git push --tags",
+    "preversion": "yarn test"
+  },
+  "repository": "git@github.com:kanekotic/electron-plugin.git",
+  "author": "kanekotic <alvarojosepl@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "coveralls": "3.0.2",
+    "jest": "23.6.0"
+  },
+  "jest": {
+    "testMatch": [
+      "**/test/**/*-test.js"
+    ],
+    "testEnvironment": "node",
+    "automock": false
+  }
+}
