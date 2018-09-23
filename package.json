@@ -23,6 +23,7 @@
   "private": false,
   "devDependencies": {
     "coveralls": "3.0.2",
+    "faker": "4.1.0",
     "jest": "23.6.0"
   },
   "jest": {
@@ -31,5 +32,8 @@
     ],
     "testEnvironment": "node",
     "automock": false
+  },
+  "dependencies": {
+    "npm": "6.4.1"
   }
 }
