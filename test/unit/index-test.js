@@ -1,6 +1,8 @@
-jest.mock('../../src/loader', () => jest.fn())
+jest.mock('../../src/lifecycle', () => ({
+    load: jest.fn()
+}))
 jest.mock('../../src/downloader', () => jest.fn())
-const loader = require('../../src/loader'),
+const lifecycle = require('../../src/lifecycle'),
     downloader = require('../../src/downloader'),
     index = require('../../src/index'),
     faker = require('faker')
@@ -19,6 +21,6 @@ describe('index should', () => {
         }
         index.load(config, extensionPoint)
         expect(downloader).toBeCalledWith(config.installPath, config.plugins)
-        expect(loader).toBeCalledWith(config, extensionPoint)
+        expect(lifecycle.load).toBeCalledWith(config.installPath, ["pluginName"], extensionPoint, expect.any(Function))
     })
 })

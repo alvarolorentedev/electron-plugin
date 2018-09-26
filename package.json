@@ -1,7 +1,7 @@
 {
   "name": "electron-plugin",
   "version": "0.0.1",
-  "description": "an electron exstensibility architecture enabler",
+  "description": "an electron extensibility architecture enabler",
   "main": "src/index.js",
   "scripts": {
     "start": "node .",
