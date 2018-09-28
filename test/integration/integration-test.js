@@ -4,7 +4,7 @@ const index = require('../../src/index'),
 let config = { 
     installPath: `${__dirname}/test_folder`,
     plugins : {
-        "electron-plugin-example": "git+https://git@github.com:kanekotic/electron-plugin-example.git"
+        "electron-plugin-example": "https://git@github.com:kanekotic/electron-plugin-example.git"
     }
  },
 extensionPoint = {
