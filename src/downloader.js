@@ -4,7 +4,7 @@ const npm = require('npm'),
 
 const download = async (path, plugins) => {
     await load({})
-    await  promisify(npm.commands.install)(path, Object.entries(plugins).map(([key, value]) => `${key}@${value}`))
+    await promisify(npm.commands.install)(path, Object.entries(plugins).map(([key, value]) => `${key}@${value}`))
 }
 
 module.exports = download

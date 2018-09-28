@@ -19,8 +19,8 @@ describe('index should', () => {
         extensionPoint = {
             app: faker.random.uuid()
         }
-        index.load(config, extensionPoint)
+        await index.load(config, extensionPoint)
         expect(downloader).toBeCalledWith(config.installPath, config.plugins)
-        expect(lifecycle.load).toBeCalledWith(config.installPath, ["pluginName"], extensionPoint, expect.any(Function))
+        expect(lifecycle.load).toBeCalledWith(config.installPath, ["pluginName"], extensionPoint, expect.any(Object))
     })
 })

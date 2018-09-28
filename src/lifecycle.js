@@ -1,10 +1,6 @@
-const load = (installPath, pluginsName, extensionPoint, requireWrap) => {
-    requireWrap.main.paths.push(`${installPath}/node_modules`)
-    pluginsName.forEach(pluginName => {
-        let plugin = requireWrap(pluginName)
-        plugin.onLoad(extensionPoint)
-    });
+const load = (installPath, pluginsName, extensionPoint, moduleWrapper) => {
+    moduleWrapper.paths.push(`${installPath}/node_modules`)
+    pluginsName.forEach(pluginName => moduleWrapper.require(pluginName).onLoad(extensionPoint))
 }
-
 
 module.exports = { load }

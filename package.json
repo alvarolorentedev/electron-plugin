@@ -21,6 +21,9 @@
   "author": "kanekotic <alvarojosepl@gmail.com>",
   "license": "MIT",
   "private": false,
+  "dependencies": {
+    "npm": "6.4.1"
+  },
   "devDependencies": {
     "coveralls": "3.0.2",
     "faker": "4.1.0",
@@ -32,8 +35,5 @@
     ],
     "testEnvironment": "node",
     "automock": false
-  },
-  "dependencies": {
-    "npm": "6.4.1"
   }
 }
