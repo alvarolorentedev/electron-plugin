@@ -6,10 +6,10 @@
   "scripts": {
     "start": "node .",
     "example": "node ./example/example.js",
-    "test": "jest",
+    "test": "jest test/unit && yarn test:int",
     "test:dev": "jest --watchAll test/unit",
     "test:int": "node test/integration/integration-test",
-    "test:cov": "jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+    "test:cov": "jest --coverage test/unit && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && yarn test:int",
     "push": "yarn test && git push",
     "deploy:major": "yarn version --major",
     "deploy:minor": "yarn version --minor",
