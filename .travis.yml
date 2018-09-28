@@ -2,6 +2,7 @@ os: osx
 language: node_js
 node_js:
   - node
+before_script: 'echo -e "Host *\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config'
 script:
   - yarn test:cov
 after_success:
