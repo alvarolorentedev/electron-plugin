@@ -8,7 +8,7 @@
     "example": "node ./example/example.js",
     "test": "jest test/unit && yarn test:int",
     "test:dev": "jest --watchAll test/unit",
-    "test:int": "node test/integration/integration-test",
+    "test:int": "jest test/integration",
     "test:cov": "jest --coverage test/unit && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && yarn test:int",
     "push": "yarn test && git push",
     "deploy:major": "yarn version --major",
@@ -27,7 +27,8 @@
   "devDependencies": {
     "coveralls": "3.0.2",
     "faker": "4.1.0",
-    "jest": "23.6.0"
+    "jest": "23.6.0",
+    "tape": "4.9.1"
   },
   "jest": {
     "testMatch": [
