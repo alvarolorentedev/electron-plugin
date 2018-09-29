@@ -16,8 +16,6 @@ add it to your electron project using `npm install electron-plugin --save` or `y
 
 require `electron-plugin` exports a function that requires a javascript object and an electron window, as seen on the next example:
 
-### Oauth1
-
 ```js
 const pluginManager = require(`electron-plugin`)
 let config = { 
