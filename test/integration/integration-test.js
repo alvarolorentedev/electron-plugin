@@ -7,7 +7,7 @@ test('integration should download and install', async (assert) => {
     let config = { 
         installPath: `${__dirname}/test_folder`,
         plugins : {
-            "electron-plugin-example": "git+ssh://git@github.com/kanekotic/electron-plugin-example.git"
+            "electron-plugin-example": "0.0.2"
         }
      },
     extensionPoint = {
