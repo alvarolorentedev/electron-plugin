@@ -1,7 +1,7 @@
 {
   "name": "electron-plugin",
   "version": "1.0.1",
-  "description": "an electron extensibility architecture enabler",
+  "description": "an electron/node plugin architecture enabler",
   "main": "src/index.js",
   "scripts": {
     "start": "node .",
@@ -17,6 +17,13 @@
     "deploy:push": "git push && git push --tags",
     "preversion": "yarn test"
   },
+  "keywords": [
+    "plugin",
+    "node",
+    "electron",
+    "extensibility",
+    "architecture"
+  ],
   "repository": "git@github.com:kanekotic/electron-plugin.git",
   "author": "kanekotic <alvarojosepl@gmail.com>",
   "license": "MIT",
