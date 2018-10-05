@@ -199,6 +199,10 @@ array-equal@^1.0.0:
   resolved "https://registry.yarnpkg.com/array-equal/-/array-equal-1.0.0.tgz#8c2a5ef2472fd9ea742b04c77a75093ba2757c93"
   integrity sha1-jCpe8kcv2ep0KwTHenUJO6J1fJM=
 
+array-peek@0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/array-peek/-/array-peek-0.0.5.tgz#ecaca8b1b3c8861552636b769b491368bd625fdf"
+
 array-unique@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/array-unique/-/array-unique-0.2.1.tgz#a1d97ccafcbc2625cc70fadceb36a50c58b01a53"
