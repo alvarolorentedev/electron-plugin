@@ -199,10 +199,10 @@ array-equal@^1.0.0:
   resolved "https://registry.yarnpkg.com/array-equal/-/array-equal-1.0.0.tgz#8c2a5ef2472fd9ea742b04c77a75093ba2757c93"
   integrity sha1-jCpe8kcv2ep0KwTHenUJO6J1fJM=
 
-array-peek@1.0.12:
-  version "1.0.12"
-  resolved "https://registry.yarnpkg.com/array-peek/-/array-peek-1.0.12.tgz#aead6d5fb92f4888e5a0a73d85417a4a2cb5b722"
-  integrity sha512-QrnrcdQu2z4NjflW3O73aUaJNQWRwJpIP06oVuSRGHFv499lM/uoR5jUOiBxPxWrE+R8DGRJd5hlGUNuy3/j3A==
+array-peek@1.0.13:
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/array-peek/-/array-peek-1.0.13.tgz#85144cbcec806cf242f4a893ee8d173678db5701"
+  integrity sha512-m+zp43oRGX/XOYYQkp5sZ2LXTzeesEXSJTD2ndhiG/Bd1zPP3BlfmMPSDImXPAn3OaYKLSe5/HhOH8pag5adcw==
 
 array-unique@^0.2.1:
   version "0.2.1"
@@ -3221,9 +3221,9 @@ ms@^2.0.0, ms@^2.1.1:
   integrity sha512-tgp+dl5cGk28utYktBsrFqA7HKgrhgPsg6Z/EfhWI4gl1Hwq8B/GmY/0oXZ6nF8hDVesS/FpnYaD/kOWhYQvyg==
 
 mute-stream@~0.0.4:
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.7.tgz#3075ce93bc21b8fab43e1bc4da7e8115ed1e7bab"
-  integrity sha1-MHXOk7whuPq0PhvE2n6BFe0ee6s=
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.8.tgz#1630c42b2251ff81e2a283de96a5497ea92e5e0d"
+  integrity sha512-nnbWWOkoWyUsTjKrhgD0dcz22mdkSnpYqbEjIm2nhwhuxlSkpywJmBo8h0ZqJdkp73mb90SssHkN4rsRaBAfAA==
 
 nan@^2.9.2:
   version "2.12.1"
