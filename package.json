@@ -9,7 +9,7 @@
     "test": "jest test/unit && yarn test:int",
     "test:dev": "jest --watchAll test/unit",
     "test:int": "node test/integration/*",
-    "test:cov": "jest --coverage test/unit && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && yarn test:int",
+    "test:cov": "jest --coverage && codecov",
     "push": "yarn test && git push",
     "deploy:major": "yarn version --major",
     "deploy:minor": "yarn version --minor",
