@@ -1,6 +1,6 @@
 {
   "name": "electron-plugin",
-  "version": "1.1.39",
+  "version": "1.1.40",
   "description": "an electron/node plugin architecture enabler",
   "main": "src/index.js",
   "scripts": {
