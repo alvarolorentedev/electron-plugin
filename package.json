@@ -29,14 +29,14 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "array-peek": "1.0.38",
-    "npm": "6.9.0"
+    "array-peek": "1.0.39",
+    "npm": "6.9.2"
   },
   "devDependencies": {
     "codecov": "3.5.0",
     "faker": "4.1.0",
     "jest": "24.8.0",
-    "tape": "4.10.2"
+    "tape": "4.11.0"
   },
   "jest": {
     "testMatch": [
