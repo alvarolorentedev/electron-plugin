@@ -29,8 +29,8 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "array-peek": "1.0.42",
-    "npm": "6.10.1"
+    "array-peek": "1.0.43",
+    "npm": "6.10.2"
   },
   "devDependencies": {
     "codecov": "3.5.0",
