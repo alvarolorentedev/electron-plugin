@@ -29,11 +29,11 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "array-peek": "1.0.50",
+    "array-peek": "1.0.51",
     "npm": "6.11.3"
   },
   "devDependencies": {
-    "codecov": "3.5.0",
+    "codecov": "3.6.1",
     "faker": "4.1.0",
     "jest": "24.9.0",
     "tape": "4.11.0"
