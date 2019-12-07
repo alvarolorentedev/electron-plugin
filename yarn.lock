@@ -10,14 +10,14 @@
     "@babel/highlight" "^7.0.0"
 
 "@babel/core@^7.1.0":
-  version "7.7.4"
-  resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.7.4.tgz#37e864532200cb6b50ee9a4045f5f817840166ab"
-  integrity sha512-+bYbx56j4nYBmpsWtnPUsKW3NdnYxbqyfrP2w9wILBuHzdfIKz9prieZK0DFPyIzkjYVUe4QkusGL07r5pXznQ==
+  version "7.7.5"
+  resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.7.5.tgz#ae1323cd035b5160293307f50647e83f8ba62f7e"
+  integrity sha512-M42+ScN4+1S9iB6f+TL7QBpoQETxbclx+KNoKJABghnKYE+fMzSGqst0BZJc8CpI625bwPwYgUyRvxZ+0mZzpw==
   dependencies:
     "@babel/code-frame" "^7.5.5"
     "@babel/generator" "^7.7.4"
     "@babel/helpers" "^7.7.4"
-    "@babel/parser" "^7.7.4"
+    "@babel/parser" "^7.7.5"
     "@babel/template" "^7.7.4"
     "@babel/traverse" "^7.7.4"
     "@babel/types" "^7.7.4"
@@ -85,10 +85,10 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
-"@babel/parser@^7.1.0", "@babel/parser@^7.4.3", "@babel/parser@^7.7.4":
-  version "7.7.4"
-  resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.7.4.tgz#75ab2d7110c2cf2fa949959afb05fa346d2231bb"
-  integrity sha512-jIwvLO0zCL+O/LmEJQjWA75MQTWwx3c3u2JOTDK5D3/9egrWRRA0/0hk9XXywYnXZVVpzrBYeIQTmhwUaePI9g==
+"@babel/parser@^7.1.0", "@babel/parser@^7.4.3", "@babel/parser@^7.7.4", "@babel/parser@^7.7.5":
+  version "7.7.5"
+  resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.7.5.tgz#cbf45321619ac12d83363fcf9c94bb67fa646d71"
+  integrity sha512-KNlOe9+/nk4i29g0VXgl8PEXIRms5xKLJeuZ6UptN0fHv+jDiriG+y94X6qAgWTR0h3KaoM1wK5G5h7MHFRSig==
 
 "@babel/plugin-syntax-object-rest-spread@^7.0.0":
   version "7.7.4"
@@ -535,10 +535,10 @@ array-equal@^1.0.0:
   resolved "https://registry.yarnpkg.com/array-equal/-/array-equal-1.0.0.tgz#8c2a5ef2472fd9ea742b04c77a75093ba2757c93"
   integrity sha1-jCpe8kcv2ep0KwTHenUJO6J1fJM=
 
-array-peek@1.0.60:
-  version "1.0.60"
-  resolved "https://registry.yarnpkg.com/array-peek/-/array-peek-1.0.60.tgz#b9ec76b483e75d3767e8c489773f313e131e8f82"
-  integrity sha512-EhahgZaqo+siger4y3dIG502EYXUpguVLhger5KE5zyV6ACUPZ/PqFZD2u3X+Pxx4AEXgPxR3jM5KLfL8wo/GA==
+array-peek@1.0.61:
+  version "1.0.61"
+  resolved "https://registry.yarnpkg.com/array-peek/-/array-peek-1.0.61.tgz#bdce03b7a76e48627ee4c49fa828ad6743bae3a4"
+  integrity sha512-/RDeNzMKIjycf1Q3qCFQuHjg7w1vSA1sZu6Dcowe6whk63lV7OHzMKWSVHgIBGA/mDUZrgt3rvBBVuYcM0JN2g==
 
 array-unique@^0.3.2:
   version "0.3.2"
@@ -725,7 +725,7 @@ browser-resolve@^1.11.3:
   dependencies:
     resolve "1.1.7"
 
-bser@^2.0.0:
+bser@2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/bser/-/bser-2.1.1.tgz#e6787da20ece9d07998533cfd9de6f5c38f4bc05"
   integrity sha512-gQxTNE/GAfIIrmHLUE3oJyp5FO6HRBfhjnw4/wMmA63ZGDJnWBmgY/lyQBpnDUkGmAhbSe39tx2d/iTOAfglwQ==
@@ -1353,9 +1353,9 @@ error-ex@^1.3.1:
     is-arrayish "^0.2.1"
 
 es-abstract@^1.5.0, es-abstract@^1.5.1:
-  version "1.16.2"
-  resolved "https://registry.yarnpkg.com/es-abstract/-/es-abstract-1.16.2.tgz#4e874331645e9925edef141e74fc4bd144669d34"
-  integrity sha512-jYo/J8XU2emLXl3OLwfwtuFfuF2w6DYPs+xy9ZfVyPkDcrauu6LYrw/q2TyCtrbc/KUdCiC5e9UajRhgNkVopA==
+  version "1.16.3"
+  resolved "https://registry.yarnpkg.com/es-abstract/-/es-abstract-1.16.3.tgz#52490d978f96ff9f89ec15b5cf244304a5bca161"
+  integrity sha512-WtY7Fx5LiOnSYgF5eg/1T+GONaGmpvpPdCpSnYij+U2gDTL0UPfWrhDw7b2IYb+9NQJsYpCA0wOQvZfsd6YwRw==
   dependencies:
     es-to-primitive "^1.2.1"
     function-bind "^1.1.1"
@@ -1552,11 +1552,11 @@ fast-levenshtein@~2.0.6:
   integrity sha1-PYpcZog6FqMMqGQ+hR8Zuqd5eRc=
 
 fb-watchman@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/fb-watchman/-/fb-watchman-2.0.0.tgz#54e9abf7dfa2f26cd9b1636c588c1afc05de5d58"
-  integrity sha1-VOmr99+i8mzZsWNsWIwa/AXeXVg=
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/fb-watchman/-/fb-watchman-2.0.1.tgz#fc84fb39d2709cf3ff6d743706157bb5708a8a85"
+  integrity sha512-DkPJKQeY6kKwmuMretBhr7G6Vodr7bFwDYTXIkfG1gjvNpaxBTQV3PbXg6bR1c1UP4jPOX0jHUbbHANL9vRjVg==
   dependencies:
-    bser "^2.0.0"
+    bser "2.1.1"
 
 figgy-pudding@^3.4.1, figgy-pudding@^3.5.1:
   version "3.5.1"
@@ -3574,10 +3574,10 @@ npm-user-validate@~1.0.0:
   resolved "https://registry.yarnpkg.com/npm-user-validate/-/npm-user-validate-1.0.0.tgz#8ceca0f5cea04d4e93519ef72d0557a75122e951"
   integrity sha1-jOyg9c6gTU6TUZ73LQVXp1Ei6VE=
 
-npm@6.13.1:
-  version "6.13.1"
-  resolved "https://registry.yarnpkg.com/npm/-/npm-6.13.1.tgz#6a2658392b70aa1266ddfe256ef21d0de2f4d8dc"
-  integrity sha512-2awiDZ9JuV/UoF4oXGhekCURC2X+eLLRz9/e58AGrPDlpzyn7e4oCaZmkzyEaisxM7jSoFKNnZhzB4xbmbM0Yw==
+npm@6.13.2:
+  version "6.13.2"
+  resolved "https://registry.yarnpkg.com/npm/-/npm-6.13.2.tgz#fb3b9500fcc5394a2727848e2a45cd6d245eaad4"
+  integrity sha512-TG7AFkKpjBNJh8OVJYcGaAbW0PZxEkjew51Lc6TRdhQpNjSSEnAOEpidApqEuciB7cs09C8mxbo8NbuPs4QDzg==
   dependencies:
     JSONStream "^1.3.5"
     abbrev "~1.1.1"
@@ -3906,9 +3906,9 @@ package-json@^4.0.0:
     semver "^5.1.0"
 
 pacote@^9.1.0, pacote@^9.5.3, pacote@^9.5.9:
-  version "9.5.9"
-  resolved "https://registry.yarnpkg.com/pacote/-/pacote-9.5.9.tgz#fa3a08629c9390b2b99769c55b2cc137e1a24df3"
-  integrity sha512-S1nYW9ly+3btn3VmwRAk2LG3TEh8mkrFdY+psbnHSk8oPODbZ28uG0Z0d3yI0EpqcpLR6BukoVRf3H4IbGCkPQ==
+  version "9.5.10"
+  resolved "https://registry.yarnpkg.com/pacote/-/pacote-9.5.10.tgz#5a4fdf0bcea9dea2eb4a80ea56216f65681710b7"
+  integrity sha512-YfMv9yyUFojekkPB4x2pL7DvAaQ5KF+XObfrhNBreXkLopo9k9nOPszObZ4V7ORoLsaFq4ZaK851JxfJxfpfAg==
   dependencies:
     bluebird "^3.5.3"
     cacache "^12.0.2"
@@ -4114,9 +4114,9 @@ pseudomap@^1.0.2:
   integrity sha1-8FKijacOYYkX7wqKw0wa5aaChrM=
 
 psl@^1.1.24, psl@^1.1.28:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/psl/-/psl-1.5.0.tgz#47fd1292def7fdb1e138cd78afa8814cebcf7b13"
-  integrity sha512-4vqUjKi2huMu1OJiLhi3jN6jeeKvMZdI1tYgi/njW5zV52jNLgSAZSdN16m9bJFe61/cT8ulmw4qFitV9QRsEA==
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/psl/-/psl-1.6.0.tgz#60557582ee23b6c43719d9890fb4170ecd91e110"
+  integrity sha512-SYKKmVel98NCOYXpkwUqZqh0ahZeeKfmisiLIcEZdsb+WbLv02g/dI5BUmZnIyOe7RzZtLax81nnb2HbvC2tzA==
 
 pump@^2.0.0:
   version "2.0.1"
