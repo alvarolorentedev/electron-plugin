@@ -29,7 +29,7 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "array-peek": "1.0.66",
+    "array-peek": "1.0.67",
     "npm": "6.13.6"
   },
   "devDependencies": {
