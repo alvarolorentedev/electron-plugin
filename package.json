@@ -29,13 +29,13 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "array-peek": "1.0.105",
+    "array-peek": "1.0.106",
     "npm": "6.14.8"
   },
   "devDependencies": {
     "codecov": "3.8.0",
     "faker": "5.1.0",
-    "jest": "26.5.2",
+    "jest": "26.5.3",
     "tape": "5.0.1"
   },
   "jest": {
