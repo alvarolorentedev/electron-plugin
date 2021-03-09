@@ -4,7 +4,6 @@
 [![npm](https://img.shields.io/npm/dy/electron-plugin.svg)](https://github.com/kanekotic/electron-plugin)
 [![GitHub license](https://img.shields.io/github/license/kanekotic/electron-plugin.svg)](https://github.com/kanekotic/electron-plugin/blob/master/LICENSE)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/kanekotic/electron-plugin/graphs/commit-activity)
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/kanekotic/)
 
 Create extensible electron applications through a plugin architecture that uses NPM (or similar registry) or GitHub as repository for the extensions.
 
